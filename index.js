@@ -11,7 +11,7 @@ function login() {
 
     users.push({email, senha})
 
-    if(email.trim()=== '' || senha.trim() === ''){
+    if(email.trim()=== '' || senha.trim() === '' || email.trim() ==! email || senha.trim() ==! senha){
         alert('Por favor faça o cadastro primeiro')
     }
     else if(user){
